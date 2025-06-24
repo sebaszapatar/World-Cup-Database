@@ -120,3 +120,7 @@ chmod +x insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git remote set-url origin https://github.com/sebaszapatar/World-Cup-Database.git
+git status
+git add .
